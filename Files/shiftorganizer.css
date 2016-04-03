@@ -1,0 +1,397 @@
+/*Css File for all colors/Fonts and mre nice features.*/
+.wrapper{
+	background:#50BE7F;
+	width : 100%;
+	height: 100%;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	margin:auto;
+}
+.templateWrapper{
+	background:#455A64;
+	width : 100%;
+	height: 100%;
+	overflow:scroll;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+	margin:auto;
+}
+#header{
+	width : 100%;
+	height: 8%;
+	background-color:#d8dfea;
+	border: 1px solid black;
+	text-align:center;
+	font-size:40px;
+	
+}
+.nav{
+	border-top-right-radius:10px;
+	background:#009688;
+	float:right;
+	width : 85%;
+	height: 25%;
+}
+.templateNav{
+	background-color:#455A64;
+	width : 100%;
+	height: 100%;
+}
+.loginBox{
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+	margin:5% 5%;
+	float:right;
+	background:  #50BE7F;
+	width : 40%;
+	height: 25%;
+	white-space:nowrap;
+	overflow:hidden;
+}
+#textfields{
+	margin:10px 15px;
+	float:right;
+	text-align:right;
+}
+#connectButton {
+	margin:10px 15px;
+}
+#logo{
+	float:left;
+	width : 50%;
+	height: 70%;
+	background-image:url('logo.png');
+	background-repeat: no-repeat;
+}
+.main{
+	float: right;
+	background: #50BE7F;
+	width : 85%;
+	height: 70%;
+}
+#movie{
+	padding:5% 25%;
+}
+#leftDiv{
+	border-top-left-radius:15px;
+	text-align: right;
+	border-bottom-left-radius:15px;
+	background:#B6CF48;
+	float:left;
+	width : 15%;
+	height: 100%;
+
+}
+#leftDivText{
+	font-size: 30px;
+	text-align:center;
+	margin-top: 90%;
+	margin-right: 2%;
+	margin-left: 2%;
+
+}
+.showUserName{
+	color:white;
+	width : 100%;
+	text-align: right;
+	font-size: 25px;
+	margin-bottom:10px;
+}
+.footer{
+	background-color:yellow;
+	width : 100%;
+	height: 5%;
+	text-align: center;
+}
+.myButton{
+    border: 1px solid black;
+    color: black;
+    padding: 25px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+	border-radius: 6px;
+	width:100%;
+	transition-property: background, border-radius;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+
+}
+.shiftInserted{
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+	border-radius: 6px;
+	width:20%;
+	transition-property: background, border-radius;
+	transition-duration: 500ms;
+	transition-timing-function: linear;
+}
+.clearShifts{
+	border: 1px solid black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+	border-radius: 6px;
+	width:20%;
+	transition-property: background, border-radius;
+	transition-duration:500ms ;
+	transition-timing-function: linear;
+
+}
+.clearShifts:hover{
+	background-color:#F44336;
+	color: white;
+}
+.shiftInserted:hover{
+	background-color:#4CAF50;
+	color: white;
+}
+.myButton:hover{
+    background-color:#666666;
+	color: white;
+
+}
+.backButton{
+	border-radius: 2px;
+	height: 35px;
+	font-size: 15px;
+	float: left;
+	cursor: pointer;
+	 border: 1px solid black;
+	 border-radius: 6px;
+	background-color:#9E9E9E;
+	transition-property: background, border-radius;
+	transition-duration:500ms ;
+	transition-timing-function: linear;
+}
+.backButton:hover{
+    background-color:#FF5252;
+	color: white;
+
+}
+.listMain{
+	width : 100%;
+	height: 100%;
+}
+td{
+    padding: 2%;
+    text-align: center;
+
+}
+.sidurmain{
+	background-image:url('Files\sidur.png');
+	width : 600px;
+	height: 100px;
+	margin: auto;
+	
+
+}
+.sidurTable{
+	padding: 17px;
+    text-align: center;
+    border-bottom: 5px solid #ddd;
+	font-size:18px;
+}
+.oddList{
+	background-color:#D7CCC8;
+    border-bottom: 0px solid #ddd;
+	width:20%;
+	font-size:20px;
+
+}
+.evenList{
+	 background-color:#B6B6B6;
+	 border-bottom: 0px solid #ddd;
+	 width:15%;
+	 font-size:20px;
+
+ }
+.open{
+	background-color:#4CAF50;
+    border-bottom: 0px solid #ddd;
+	font-size:20px;
+
+}
+.close{
+	background-color:#F44336;
+    border-bottom: 0px solid #ddd;
+	width:20%;
+	font-size:20px;
+
+}
+
+.deleteFrame{
+	background-color:#B6B6B6;
+    border-bottom: 0px solid #ddd;
+	width:20%;
+	font-size:20px;
+	
+}
+#listHeader{
+	border-top-left-radius: 35px;
+	border-top-right-radius: 35px;
+	background-color:#009688 ;
+	font-size:30px;
+	text-align: center;
+	text-align:center;
+}
+#days>td{
+	font-size:20px;
+	 background-color:#666666;
+	 width:9%;
+}
+.MorningShifts{
+	background-color:#bdbdbd;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+.mShift{
+	background-color:red;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+.mSidur{
+	background-color:blue;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+.eShift{
+	background-color:red;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+.sButton{
+	cursor:pointer;
+	border-radius: 6px;
+	border: 1px solid black;
+    text-align: center;
+	background-color:#9E9E9E;
+	transition-property: background, border-radius;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
+}
+.sButton:hover{
+	background: #ff7b29;
+	border-radius: 5%;
+	background-color:#009688;
+	color: white;
+}
+.worker{
+	background-color:yellow;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+.morning{
+	background-color:#B8B8B8 ;
+	border-bottom: 0px solid #ddd;
+	width:11%;
+	font-size:30px;	
+}
+.morning2{
+	
+	border-bottom: 0px solid #ddd;
+	width:11%;
+	font-size:30px;	
+}
+#days{
+	font-size:30px;
+
+}
+#listButton{
+	border-radius: 5px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+	border-radius:6px;
+	width:100%;
+}
+#listButton2{
+	border-radius: 5px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius:6px;
+	width:100%;
+	transition-property: background, border-radius;
+	transition-duration: 200ms;
+	transition-timing-function: linear;
+}
+#listButton2:hover{
+	background: #ff7b29;
+	border-radius: 5%;
+	background-color:#009688;
+	color: white;
+}
+.EveningShifts{
+	background-color:#e0e0e0;
+    border-bottom: 0px solid #ddd;
+	width:11%;
+}
+#EMMorningShifts{
+	font-size:25px;
+	background-color:#B6B6B6;
+}
+.mShift{
+	font-size:25px;
+	background-color:#727272;
+}
+.eShift{
+	font-size:25px;
+	background-color:#607D8B;
+}
+.NEtextfields{
+	color:white;
+	font-size:110%;
+	margin:5% 40%;
+}
+.NEMybutton{
+	width : 100%;
+	height: 5%;
+}
+.NEmain{
+	width : 100%;
+	height: 80%;
+	margin:auto;
+}
+#defaultTable{
+	width:100%;
+	
+}
+#defaultTableForSidur{
+	width:40%;
+	float:right;
+	margin-right: 450px;
+	margin-top: 40px;
+}
+#deleteTable{
+	
+	width:40%;
+	float:right;
+	margin-right: 450px;
+	margin-top: 40px;
+}
