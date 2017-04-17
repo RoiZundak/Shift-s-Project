@@ -1,7 +1,8 @@
 ## Shift-s-Project
 **Web App Project For "Logo Teura"-Shift originizer**
-**FREE DOWNLOAD**
-***For Any Questions Just Call 0548044784***
+
+*FREE DOWNLOAD*
+*For Any Questions Just Call 0548044784*
 
 <img src="https://github.com/RoiZundak/Shift-s-Project/blob/master/Files/logo.png">    
 
